@@ -1,2 +1,2 @@
-Commads:-
+Commands:-
 
