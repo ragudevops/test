@@ -1,6 +1,8 @@
 Commands:-
 
 C:\Windows\system32>docker run -it -p 8080:8080 infracloudio/csvserver:latest
+
+
 Unable to find image 'infracloudio/csvserver:latest' locally
 latest: Pulling from infracloudio/csvserver
 ae43b40a9945: Pull complete
