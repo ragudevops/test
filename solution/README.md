@@ -27,6 +27,13 @@ CONTAINER ID   IMAGE                           COMMAND                  CREATED 
 ed3c2049069c   infracloudio/csvserver:latest   "/csvserver/csvserver"   About a minute ago   Up About a minute   9300/tcp, 0.0.0.0:9393->9393/tcp, :::9393->9393/tcp   practical_ramanujan
 
 
+
+------------------------------------------------
+
+C:\Windows\system32>docker logs ed3c2049069c
+
+2021/09/04 15:10:59 listening on ****
+
 ------------------------------------------------
 
 C:\Windows\system32>docker pull prom/prometheus:v2.22.0
