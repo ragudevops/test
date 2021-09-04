@@ -19,3 +19,12 @@ C:\Windows\system32>docker run -it -p 8080:8080 -v C:\git\csvserver\solution\inp
 
 2021/09/04 15:01:30 listening on ****
 
+
+------------------------------------------------
+
+C:\Windows\system32>docker ps -a
+
+
+CONTAINER ID   IMAGE                           COMMAND                  CREATED          STATUS                      PORTS                                                 NAMES
+dc1d330ad1a6   infracloudio/csvserver:latest   "/csvserver/csvserver"   3 minutes ago    Up 3 minutes                0.0.0.0:8080->8080/tcp, :::8080->8080/tcp, 9300/tcp   musing_lehmann
+
