@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: infracloudio/csvserver
+  db:
+    image: prom/prometheus:v2.22.0
+    ports:
+    - "9393:9393"
+    environment:
+    - CSVSERVER_BORDER=Orange
